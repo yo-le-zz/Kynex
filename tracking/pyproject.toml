@@ -1,0 +1,11 @@
+[project]
+name = "kynex-tracking"
+version = "0.1.0"
+description = "Tracking module of Kynex ( robotic hand )"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mediapipe>=1.0.1",
+    "opencv-python>=5.0.0.93",
+    "pyserial>=3.5",
+]
